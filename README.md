@@ -9,6 +9,6 @@
 * [로보티즈(ROBOTIS) e-Manual 바로가기](https://emanual.robotis.com/)
 * [DYNAMIXEL 서브모터 제어 가이드](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/)
 * [OMX 공식 소개 페이지](https://ai.robotis.com/omx/introduction_omx.html)
-
+<img src="https://너의이미지URL.jpg">
 ### 3. 데이터 수집 및 전처리
 * [데이터 사이언스 기초 (Pandas/Numpy)](https://pandas.pydata.org/docs/user_guide/10min.html
