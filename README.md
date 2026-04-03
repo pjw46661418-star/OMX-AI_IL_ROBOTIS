@@ -1,99 +1,13 @@
 # OMX-AI_IL_ROBOTIS
-# ChatGPT
+# 📘 Omx-AI-IL_Robotis
 
-<details>
-<summary>📌 목차 보기</summary>
+### 1. 모방학습 개요
+* [모방학습(Imitation Learning)이란?](https://en.wikipedia.org/wiki/Imitation_learning)
+* [IL 핵심 알고리즘 설명](https://ropas.snu.ac.kr/liberation/seminar/2021/Imitation_Learning.pdf)
 
-- [1. 모방학습 개요](#imitation)
-- [2. OMX-서보모터](#omx)
+### 2. omx-서브모터
+* [로보티즈(ROBOTIS) e-Manual 바로가기](https://emanual.robotis.com/)
+* [DYNAMIXEL 서브모터 제어 가이드](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/)
 
-</details>
-
----
-
-<h2 id="imitation">1. 모방학습 개요</h2>
-
-<details>
-<summary>내용 보기</summary>
-
-### 🔎 정의
-모방학습(Imitation Learning)은 전문가나 인간의 행동 데이터를 기반으로  
-인공지능이 그 행동을 학습하여 동일하거나 유사한 행동을 수행하도록 하는 학습 방법이다.
-
----
-
-### 🧠 작동 원리
-1. 사람이 특정 작업을 수행한다.  
-2. 그 과정에서 행동 데이터(입력-출력)를 수집한다.  
-3. 인공지능 모델이 데이터를 학습한다.  
-4. 새로운 상황에서도 비슷한 행동을 수행한다.  
-
-👉 즉, 시행착오 없이 “보고 배우는 방식”이다.
-
----
-
-### ⚙️ 특징
-- 학습 속도가 빠르다  
-- 보상 설계가 필요 없다  
-- 전문가 데이터의 질에 크게 의존한다  
-
----
-
-### 🤖 활용 사례
-- 자율주행 자동차 (운전자 행동 학습)  
-- 로봇 제어 (로봇 팔 작업 학습)  
-- 게임 AI (고수 플레이 모방)  
-
----
-
-### ⚠️ 한계
-- 잘못된 데이터도 그대로 학습할 수 있음  
-- 새로운 상황에 대한 일반화 능력이 부족할 수 있음  
-
-</details>
-
----
-
-<h2 id="omx">2. OMX-서보모터</h2>
-
-<details>
-<summary>내용 보기</summary>
-
-### 🔎 정의
-OMX 서보모터는 위치, 속도, 회전 각도를 정밀하게 제어할 수 있는 서보 시스템의 일종으로,  
-주로 산업 자동화 및 로봇 제어에 사용된다.
-
----
-
-### ⚙️ 구성 요소
-서보모터는 다음과 같은 요소로 구성된다.
-
-1. 모터 (회전력 생성)  
-2. 센서 (현재 위치 및 속도 측정)  
-3. 제어기 (목표 값과 실제 값을 비교하여 제어)  
-
-👉 이 세 가지가 결합되어 정밀한 제어가 가능하다.
-
----
-
-### 🔧 특징
-- 높은 위치 정밀도  
-- 빠른 응답 속도  
-- 안정적인 반복 동작  
-- 외부 제어 시스템과 연동 가능  
-
----
-
-### 🤖 활용 분야
-- 산업용 로봇 (로봇 팔 제어)  
-- 자동화 생산 라인  
-- CNC 공작기계  
-- 드론 및 정밀 장비  
-
----
-
-### 🔬 중요성
-서보모터는 반도체 장비나 정밀 기계에서 필수적인 부품으로,  
-오차를 최소화하고 정확한 동작을 구현하는 데 중요한 역할을 한다.
-
-</details>
+### 3. 데이터 수집 및 전처리
+* [데이터 사이언스 기초 (Pandas/Numpy)](https://pandas.pydata.org/docs/user_guide/10min.html
